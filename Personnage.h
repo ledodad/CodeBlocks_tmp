@@ -9,7 +9,7 @@ class Personnage
 public:
 
     void recevoirDegats(int nbDegats);
-    void attaquer(Personnage &Cible);
+    void attaquer(Personnage &cible);
     void boirPotionDeVie(int quantitePotion);
     void changerArme(std::string nomNouvelleArme, degatsArme);
     bool estVivant();
